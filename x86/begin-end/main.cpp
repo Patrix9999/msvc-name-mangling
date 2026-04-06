@@ -14,7 +14,7 @@ inline std::string format_rgb(unsigned char r, unsigned char g, unsigned char b,
 
 int main(int argc, char* argv[])
 {
-    std::println("{} {} func({})", format_rgb(140, 140, 40, "char"), format_rgb(210, 140, 110, "__cdecl"), format_rgb(210, 140, 110, "void"));
+    std::println("{} {} func({})", format_rgb(210, 140, 110, "void"), format_rgb(210, 140, 110, "__cdecl"), format_rgb(210, 140, 110, "void"));
     std::println("{}: {}func@@YAXX{}", format_rgb(80, 160, 210, "mangled"), format_rgb(140, 140, 40, "?"), format_rgb(140, 140, 40, "Z"));
     std::println();
 
