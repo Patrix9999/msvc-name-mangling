@@ -30,10 +30,6 @@ int main(int argc, char* argv[])
     std::println("{}: ?DoDie@oCNpc@@IA{}XXZ", format_rgb(80, 160, 210, "mangled"), format_rgb(140, 140, 40, "I"));
     std::println();
 
-    std::println("{} {} {}::DoDie({})", format_rgb(210, 140, 110, "void"), format_rgb(140, 140, 40, "__fastcall"), format_rgb(180, 180, 210, "oCNpc"), format_rgb(210, 140, 110, "void"));
-    std::println("{}: ?DoDie@oCNpc@@IA{}XXZ", format_rgb(80, 160, 210, "mangled"), format_rgb(140, 140, 40, "I"));
-    std::println();
-
     std::println("{} {} {}::DoDie({})", format_rgb(210, 140, 110, "void"), format_rgb(140, 140, 40, "__vectorcall"), format_rgb(180, 180, 210, "oCNpc"), format_rgb(210, 140, 110, "void"));
     std::println("{}: ?DoDie@oCNpc@@IA{}XXZ", format_rgb(80, 160, 210, "mangled"), format_rgb(140, 140, 40, "Q"));
     std::println();
